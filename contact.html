@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Path of Light Yoga Studio::Contact</title>
+    <link rel="stylesheet" type="text/css" href="./yoga.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <header>
+            <h1>Path of Light Yoga Studio</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="classes.html">Classes</a> </li>
+                <li><a href="schedule.html">Schedule</a> </li>
+                <li><a href="contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+
+
+        <main>
+
+            <h2> Contact Path of Light Yoga Studio </h2>
+            <form action="https://webdevbasics.net/scripts/yoga.php" method = "post">
+
+                <label for="myName">* Name:</label>
+                <input type="text" id="myName" name="myName">
+
+                <label for="myEmail">* Email:</label>
+                <input type="email" id="myEmail" name="myEmail" required>
+
+                <label for="where">How did you hear about us?</label>
+                    <input type="text" id="where" name="accessFrom" list="place">
+                    <datalist id="place">
+                        <option value="Google">
+                        <option value="Bing">
+                        <option value="Facebook">
+                        <option value="Friend">
+                        <option value="Radio">
+
+                    </datalist>
+
+                <label for="myComments">*Comments:</label>
+                <textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
+
+                <br><br>
+                <input type="submit" value="Send Now">
+
+              </form>
+
+
+        </main>
+        <footer>
+            Copyright &copy;2018 Path of Light Yoga Studio
+            <br>
+            <a href ="mailto:srachwal1@my.wctc.edu">srachwal1@my.wctc.edu</a>
+            <br>
+            <a href="privacy.html">Our Privacy Policy</a>
+
+
+        </footer>
+    </div>
+</body>
+</html>

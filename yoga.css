@@ -1,0 +1,282 @@
+*{box-sizing: border-box;}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {display:block;}
+
+#mobile{
+    display: none;
+}
+
+#desktop{
+    display: none;
+}
+
+body {
+    background-color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+    color: #3F2860;
+}
+
+#wrapper {
+    background-color: #F5F5F5;
+    min-width: 550px;
+    max-width: 1280px;
+    width: 80%;
+    color: #3F2860;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9BC1C2;
+    background-image: url("./images/lilyheader.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 150px;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-left: 2em;
+
+
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    width: 190px;
+    float: left;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    border: 3px outset #CCCCCC;
+    padding: 1em;
+    margin-bottom: 1em;;
+}
+nav ul {
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style: none;
+}
+
+nav ul li a:link {color: #5C7FA3}
+nav ul li a:visited{color: #344873}
+nav ul li a:hover {color: #A52A2A}
+
+main{
+    padding: 0 3em 3em 3em;
+    display: block;
+    margin-left: 170px;
+
+}
+
+#mathero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/yogamat.jpg");
+}
+
+#loungehero{
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("./images/yogalounge.jpg");
+}
+
+
+footer {
+    background-color: #9BC1C2;
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    padding: 1em;
+
+}
+li{
+    font-size: 90%
+}
+
+.floatleft{
+    float: left;
+    margin-right: 4em;
+}
+
+.clear{
+    clear: both;
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 60%;
+    border: 1px solid #3F2860;
+    border-collapse: collapse;
+}
+td{
+    padding: 0.5em;
+    border: 1px solid #3F2860;
+}
+
+th{
+    padding: 0.5em;
+    border: 1px solid #3F2860;
+}
+
+caption{
+    margin: 1em;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+tr:nth-of-type(even) {
+    background-color: #D7E8E9;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 10em;
+    padding-right: 1em;
+}
+
+input{
+    display: block;
+    margin-bottom: 2em;
+}
+
+textarea{
+    display: block;
+}
+
+input[type= "submit"]{
+    margin-left: 12em;
+}
+
+form{
+    padding: 3em;
+}
+
+nav a:hover {
+    background-color: #B6D2D3;
+    transition-timing-function: ease-out;
+    transition: 3s;
+}
+
+@media only screen and (max-width: 64em) {
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    #wrapper{
+        min-width: 0;
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+    header{
+        padding-top: 1px;
+    }
+
+    main{
+        margin: 0;
+        padding: 0 1em 2.5em 1em;
+        font-size: 90%;
+        clear: both;
+    }
+
+    nav{
+        float: none;
+        width: auto;
+        padding-left: 2em;
+    }
+    nav ul li a{
+        padding: 0.2em;
+        margin-left: 0.3em;
+        float: left;
+        width: 23%;
+    }
+    h2, h3, p, dl{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    main ul{
+        margin-left: 2em;
+    }
+    .floatleft{
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    .clear{
+        padding-left: 2em;
+    }
+    #mathero, #loungehero{
+        height: 150px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media only screen and (max-width: 37.5em){
+
+    h1{
+        font-size: 2em;
+        padding-top: 0.25em;
+        padding-left: 1.5em;
+        width: 85%;
+        text-align: center;
+    }
+
+    nav ul li a{
+        padding: 0.5em;
+        width: 45%;
+        float: left;
+        min-width: 6em;
+        margin-left: 0.5em;
+    }
+    li{
+        font-size: 100%;
+    }
+    .floatleft{
+        float: none;
+        display: none;
+    }
+
+    #mathero, #loungehero{
+        background-image: none;
+        height: 0;
+    }
+
+    footer{
+        padding: 0.5em;
+        margin: 0;
+
+    }
+    #mobile{
+        display: inline;
+    }
+    #desktop{
+        display: none;
+    }
+
+    label{
+        float:none;
+        text-align: left;
+    }
+
+    input[type= "submit"] {
+        margin-left: 0;
+    }
+}

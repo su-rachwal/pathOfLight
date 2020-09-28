@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7e91a95-7a07-430c-b3f5-6f00f1584365" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1hFprmCgGumhENlKvfB3H6jg85J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\passv\Desktop\2020Fall\webdevelopment\0915\ch10Yoga" />
+      <recent name="C:\Users\passv\Desktop\2020Fall\webdevelopment\0908\ch7Yoga\images" />
+      <recent name="C:\Users\passv\Desktop\2020Fall\webdevelopment\0908\ch7Yoga" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7e91a95-7a07-430c-b3f5-6f00f1584365" name="Default Changelist" comment="" />
+      <created>1599616895887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599616895887</updated>
+      <workItem from="1599616896979" duration="166000" />
+      <workItem from="1599617364245" duration="781000" />
+      <workItem from="1599618189864" duration="1328000" />
+      <workItem from="1599622689169" duration="160000" />
+      <workItem from="1600227940141" duration="3194000" />
+      <workItem from="1600399306358" duration="2638000" />
+      <workItem from="1601260050678" duration="1256000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3117" y="47" key="FileChooserDialogImpl" timestamp="1600400674369">
+      <screen x="1920" y="-228" width="1920" height="1040" />
+    </state>
+    <state x="3117" y="47" key="FileChooserDialogImpl/0.0.1536.824/1920.-228.1920.1040@1920.-228.1920.1040" timestamp="1600400674369" />
+  </component>
+</project>
